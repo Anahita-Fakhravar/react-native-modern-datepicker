@@ -146,7 +146,8 @@ const styles = (theme) =>
       width: 18,
       height: 18,
       opacity: 0.9,
-      tintColor: theme.mainColor,
+      tintColor: '#3f3f3f',
+      resizeMode:'contain',
       margin: 2,
     },
     leftArrow: {
@@ -194,8 +195,6 @@ const styles = (theme) =>
       paddingVertical: 4,
       paddingHorizontal: 8,
       alignItems: 'center',
-      borderRadius: 5,
-      borderWidth: 1,
     },
     time: {
       marginRight: 5,
